@@ -1,0 +1,45 @@
+body {
+    background-color: azure;
+}
+header {
+    padding: 10px;
+    background-color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: white;
+}
+
+nav {
+    padding: 10px;
+}
+
+section {
+    display: grid;
+    place-items: center;
+    font-style: italic;
+    padding: 10px;
+}
+figcaption{
+    font-size: 13px;
+}
+
+footer {
+    background-color: cornflowerblue;
+    display: grid;
+    place-items: center;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: rgb(135, 135, 248);
+    color: aliceblue;
+    font: bolder;
+}
+
+article:hover {
+    background-color: antiquewhite;
+ }
+
+article {
+  font-family: monospace;
+}
