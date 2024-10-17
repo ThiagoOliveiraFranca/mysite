@@ -1,0 +1,61 @@
+body {
+    background: -webkit-linear-gradient(-90deg, white, lightblue);
+    margin: 0;
+    padding: 0;
+}
+header {
+    padding: 10px;
+    padding-left: 20px;
+    background-color: rgb(235, 241, 255);
+    font-family: Garamond;
+    color:darkblue;
+    display: grid;
+    place-items: left;
+    font-weight: bolder;
+}
+
+nav {
+    padding: 10px;
+}
+
+section {
+    display: grid;
+    place-items: center;
+    font-style: italic;
+    padding: 10px;
+}
+figure img {
+    height: 300px;
+    padding: 0px;
+    filter: grayscale(1);
+}
+img:hover {
+    filter:grayscale(0);
+    height: 400px;
+}
+figcaption{
+    font-size: 13px;
+}
+
+footer {
+    display: grid;
+    place-items: center;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: rgb(135, 135, 248);
+    color: aliceblue;
+    font: bolder;
+}
+
+article:hover {
+    background-color: white;
+ }
+
+article {
+  font-family: monospace;
+  padding: 15px;
+  text-align: justify;
+  line-height: 20px;
+}
