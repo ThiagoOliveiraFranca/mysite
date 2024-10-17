@@ -27,9 +27,13 @@ section {
 figure img {
     height: 300px;
     padding: 0px;
+    filter: grayscale(1);
+
 }
 img:hover {
     height: 400px;
+    filter: grayscale(0);
+
 }
 figcaption{
     font-size: 13px;
