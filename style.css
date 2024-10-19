@@ -1,68 +1,80 @@
 body {
-    background: -webkit-linear-gradient(-90deg, white, lightblue);
+    background: linear-gradient(to right, rgb(103, 103, 255), rgb(255, 121, 121));
     margin: 0;
+    height: auto;
     padding: 0;
 }
-header {
-    padding: 10px;
-    padding-left: 20px;
-    background-color: rgb(235, 241, 255);
-    font-family: Garamond;
-    color:darkblue;
+
+#botaoini {
+    padding: 20px;
+    width: 200px;
+    border: 0px;
+    cursor: pointer;
+    font-size: 14px;
+}
+#botaoini:hover {
+    transition: 400ms ease;
+    background-color: rgb(255, 196, 208);
+    color: rgb(50, 3, 3);
+
+}
+
+#texto-botao {
     display: grid;
-    place-items: left;
-    font-weight: bolder;
+    justify-items: center;
+   
 }
 
-nav {
-    padding: 10px;
-    text-align: right;
+#box-inicial {
+    margin: 50px;
+    background-color: crimson;
+    height: 500px;
+    border-radius: 10px;
+}
+h2 {
+    text-align: justify;
+    font-size: 48px;
+    width: 500px;
+    color: white;
+}
+#foto_texto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+    
 }
 
-section {
+#foto_ini {
+    height: 400px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+
+.login-box {
+    height: 500px;
+    background-color: crimson;
+    margin: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-items: center;
+}
+
+#inputs {
+    margin: auto;
     display: grid;
-    place-items: center;
-    font-style: italic;
-    padding: 10px;
-}
-figure img {
-    height: 300px;
-    padding: 0px;
-    filter: grayscale(1);
-}
-img:hover {
-    filter:grayscale(0);
-    height: 350px;
-}
-figcaption{
-    font-size: 13px;
+    align-items: center;
 }
 
-footer {
-    display: grid;
-    place-items: center;
-    padding: 10px;
+input {
+    margin: 5px;
+    padding: 3px;
+    width: 250px;
 }
 
-a {
-    padding: 10px;
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    background-color: rgb(135, 135, 248);
-    color: aliceblue;
-    font: bolder;
-}
-
-article:hover {
-    background-color: white;
- }
-
-article {
-  font-family: monospace;
-  padding: 15px;
-  text-align: justify;
-  line-height: 20px;
+#inputs button {
+    margin: 10px;
+    cursor: pointer;
+    width: 250px;
 }
