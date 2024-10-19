@@ -1,7 +1,8 @@
 body {
     background: linear-gradient(to right, rgb(103, 103, 255), rgb(255, 121, 121));
     margin: 0;
-    height: auto;
+    height: 100dvh;
+    width: 100%;
     padding: 0;
     background-repeat: no-repeat;
 
