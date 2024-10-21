@@ -1,5 +1,5 @@
 function comecar() {
-    window.location.href = "./login.html";
+    window.location.href = "../login.html";
 }
 
 function entrar(){
